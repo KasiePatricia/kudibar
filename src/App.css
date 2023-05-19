@@ -1,0 +1,29 @@
+:root {
+  --color-primary: #023e4f;
+  --color-secondary: #01789a;
+  --color-dark-1: #2a2e3f;
+  --color-text-default: #828282;
+  --color-grey-1: #858484;
+  --color-bg: #f6fbfd;
+  --color-border: #dfe1e6;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+.vertical-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-0);
+  }
+}
